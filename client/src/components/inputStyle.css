@@ -1,0 +1,95 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+
+.titleQuote {
+  color: #595959;
+}
+
+.center2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 392px;
+  width: 465px;
+
+  border-radius: 15px;
+  z-index: 3;
+  background-image: url(./pics/loginBox.png);
+
+  background-size: cover;
+}
+
+.container {
+  display: block;
+  z-index: 3;
+}
+
+.user {
+  width: 350px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.user2 {
+  width: 350px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(255, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.user::placeholder {
+  padding-left: 30px;
+}
+
+.pass {
+  width: 350px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.pass2 {
+  width: 350px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(255, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.btnHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginPic {
+  position: absolute;
+  z-index: 0;
+  height: 650px;
+  border-radius: 30%;
+}
+
+.loginBox {
+  position: absolute;
+  height: 400px;
+}
